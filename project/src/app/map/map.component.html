@@ -1,0 +1,9 @@
+<div class="map-wrapper">
+    <div id="map"></div>
+    <div class="top-panel">
+        <div class="top-button-group">
+            <div class="button" [ngClass]="{on: type===1}" (click)="switch(1)">天气预报</div>
+            <div class="button" [ngClass]="{on: type===2}" (click)="switch(2)">迁徙地图</div>
+        </div>
+    </div>
+</div>
