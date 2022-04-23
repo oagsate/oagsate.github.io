@@ -13,9 +13,9 @@ function App() {
           欢迎来到 <span className='hand'>Leonard</span> 的个人小站.
         </p>
         <p className='btns'>
-          <button className='btn-primary'>简历</button>
-          <button className='btn-primary'>展示</button>
-          <button className='btn-primary'>联系</button>
+          <button className='btn-primary'>简 历</button>
+          <button className='btn-primary'>展 示</button>
+          <button className='btn-primary'>联 系</button>
         </p>
       </header>
     </div>
