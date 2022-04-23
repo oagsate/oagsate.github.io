@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'BRADHI';
+  src: url('./fonts/BRADHI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.desc{
+  font-size: 40px;
+}
+
+.hand{
+  font-family: 'BRADHI';
+  font-size: 46px;
+  color: rgb(97, 218, 251);
+}
+
+.logo{
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  animation: rotateAni infinite 5s, shineAni infinite 4s;
+  opacity: 0.45;
+  transform: rotate(-5deg);
+  box-shadow: 0 0 10px #fff;
+}
+
+.logo-div1{
+  flex-grow: 1;
+  background-color: rgb(97, 218, 251);
+}
+
+.logo-div2{
+  flex-grow: 1;
+  background-color: rgb(35, 209, 111);
+}
+
+.btns button{
+  margin: 0 12px;
+}
+
+.btn-primary{
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgba(97, 218, 251, 0.2);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover{
+  background-color: rgba(97, 218, 251, 0.4);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateAni {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes shineAni {
+  0% {
+    box-shadow: 0 0 10px #fff;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #fff;
+  }
+
+  100% {
+    box-shadow: 0 0 10px #fff;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.ed3ea4df.css",
+    "main.js": "/build/static/js/main.f543ec93.js",
+    "static/js/787.99a3e199.chunk.js": "/build/static/js/787.99a3e199.chunk.js",
+    "static/media/BRADHI.ttf": "/build/static/media/BRADHI.0c1681f6434f139f507b.ttf",
+    "index.html": "/build/index.html",
+    "main.ed3ea4df.css.map": "/build/static/css/main.ed3ea4df.css.map",
+    "main.f543ec93.js.map": "/build/static/js/main.f543ec93.js.map",
+    "787.99a3e199.chunk.js.map": "/build/static/js/787.99a3e199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed3ea4df.css",
+    "static/js/main.f543ec93.js"
+  ]
+}
